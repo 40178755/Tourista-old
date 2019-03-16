@@ -1,7 +1,14 @@
-colour scheme 
+colour scheme
 
 black - #17252A
 dark turquoise - #2B7A78
 turquoise - 3AAFA9
 light blue - #DEF2F1
 off white - #FEFFFF
+
+------------------------------
+
+fonts
+font-family: 'Pangolin', cursive; - h2
+font-family: 'Montserrat', sans-serif; logo
+font-family: 'Lato', sans-serif; - normal text
