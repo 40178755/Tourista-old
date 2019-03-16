@@ -123,6 +123,20 @@
   margin-right: 30px;
 }
 
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /* Responsivenes & UX - Header links will stack on smaller screens */
 @media screen and (max-width: 500px) {
   .footer a {
