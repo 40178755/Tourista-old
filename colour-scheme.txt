@@ -12,3 +12,12 @@ fonts
 font-family: 'Pangolin', cursive; - h2
 font-family: 'Montserrat', sans-serif; logo
 font-family: 'Lato', sans-serif; - normal text
+
+dark to light
+FEFCD7	A6CB45	71B238	6A8347
+
+notes:
+- bootstrap carousel change size / remove fade effect
+- transition logo on loading
+- carousel text change to black
+- responsiveness !!!
