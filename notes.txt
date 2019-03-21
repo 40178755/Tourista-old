@@ -17,7 +17,21 @@ dark to light
 FEFCD7	A6CB45	71B238	6A8347
 
 notes:
-- bootstrap carousel change size / remove fade effect
 - transition logo on loading
-- carousel text change to black
 - responsiveness !!!
+- remove bg on smaller screens
+- carousel text size on smaller screens
+- drop down menus
+- pop up boxes
+- alert when you click a box
+- to do list
+- upvoting
+- form to send an email
+- hover effects over links and buttons
+-
+
+working features:
+- navbar with links
+- navbar links fade in/out & change colour on hover
+- bootstrap image carousel (auto transition and nav buttons)
+-
