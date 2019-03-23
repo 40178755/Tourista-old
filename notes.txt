@@ -21,7 +21,6 @@ notes:
 - responsiveness !!!
 - remove bg on smaller screens
 - carousel text size on smaller screens
-- drop down menus
 - pop up boxes
 - alert when you click a box
 - to do list
@@ -34,4 +33,15 @@ working features:
 - navbar with links
 - navbar links fade in/out & change colour on hover
 - bootstrap image carousel (auto transition and nav buttons)
--
+- dropdown in navbar
+
+content:
+attractions:
+  - giants causeway
+  - dark Hedges
+activities:
+  - slemish
+  - W5
+entertainment:
+  - sport
+  - opera house
