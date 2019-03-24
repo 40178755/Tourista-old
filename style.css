@@ -14,6 +14,10 @@ h2 {
     text-align: center;
 }
 
+h3 {
+  text-align: left;
+}
+
 #myCarousel {
   padding: 20px;
 }
@@ -145,8 +149,8 @@ header {
         color: #000000;
         font-size: 20px;
         line-height: 48px;
-
       }
+
 
       /* The dropdown container */
       .dropdown {
@@ -238,6 +242,9 @@ header {
         transition: max-height 0.5s ease-out;
       }
 
-      .panel p {
+      .panel p, ul {
         margin: 15px;
+        font-size: 16px;
+        font-family: inherit;
+        text-align: left;
       }
