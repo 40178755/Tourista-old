@@ -32,7 +32,35 @@
 
 
     <div class="container">
-      <p>text</p>
+      <h3>Leave some feedback....</h2>
+
+      <div style="text-align:left">
+      <form action="mailto:hannahs97@live.com" method="post" enctype="text/plain">
+        Name:<br>
+        <input type="text" name="name" placeholder="Name" size="50"><br>
+
+        Country:<br>
+        <select id="country" name="country">
+          <option value="uk">United Kingdom</option>
+          <option value="ireland">Ireland</option>
+          <option value="usa">United States</option>
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="other">Other</option>
+        </select><br>
+
+        E-mail:<br>
+        <input type="text" name="mail" placeholder="Email" size="50"><br>
+
+        Comment:<br>
+        <input type="text" name="comment" size="50" placeholder="Leave a comment..." style="height:100px"><br><br>
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset" onclick="resetClick(form)">
+
+
+      </form>
+
+    </div>
 
 
     </div>
@@ -45,4 +73,6 @@
       <a href="https://www.slack.com/" class="fa fa-slack"></a>
     </div>
   </div>
+
 </body>
+<script src="buttonScript.js"></script>
