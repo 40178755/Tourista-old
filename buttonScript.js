@@ -1,8 +1,9 @@
-var form = document.getElementById('searchform');
-function resetClick(form) {
-   if (confirm('Do you want to reset?')) {
-       form.submit();
-   } else {
-       return false;
-   }
+
+
+function submitClick(form) {
+  alert("Submitted!");
+}
+
+function resetClick() {
+    return confirm("Are you sure you want to reset all text?");
 }

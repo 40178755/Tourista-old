@@ -21,11 +21,8 @@ notes:
 - responsiveness !!!
 - remove bg on smaller screens
 - carousel text size on smaller screens
-- pop up boxes
-- alert when you click a box
 - to do list
 - upvoting
-- form to send an email
 - hover effects over links and buttons
 -
 
