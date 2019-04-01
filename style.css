@@ -90,10 +90,7 @@ header {
 					display: block;
 					text-align: center;
 				}
-        .responsive {
-          max-width: 100%;
-          height: auto;
-        }
+
         .dropdown, .dropdown-content a {
           width: 100%;
           display: block;
