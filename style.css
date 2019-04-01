@@ -93,6 +93,7 @@ header {
           display: block;
           text-align: center;
         }
+
 			}
 
 			.container {
@@ -221,6 +222,7 @@ header {
         min-width:100px;
         float: right;
         width: 300px;
+        max-width: 100%;
         border-radius: 10px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
         margin: 20px 0px 20px 20px;
@@ -229,6 +231,7 @@ header {
       .image-left {
         min-width: 100px;
         float: left;
+        max-width: 100%;
         width: 300px;
         border-radius: 10px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
@@ -312,10 +315,14 @@ header {
       }
 
       @media screen and (max-width: 600px) {
-        .col-25, .col-75, input[type=submit] {
+        .col-25, .col-75, input[type=submit], input[type=reset], input[type=text] {
           width: 100%;
           margin-top: 0;
-  }
+        }
+
+        iframe {
+          max-width: 100%;
+        }
 }
 
 .things-to-do-item {
@@ -336,6 +343,7 @@ header {
 
 .things-to-do-item img {
   width: 500px;
+  max-width: 100%;
   height: auto;
   border-radius: 10px;
   margin-bottom: 10px;
