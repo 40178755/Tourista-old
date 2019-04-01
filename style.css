@@ -61,9 +61,9 @@ header {
 }
 
 			@media screen and (max-width: 500px) {
-				.nav a {
-			  		display: none;
-			  	}
+        .container {
+          width: 90%;
+        }
 			  	.nav {
 			  		padding: 0;
 			  	}
@@ -79,11 +79,20 @@ header {
 					right:0;
 					top:0;
 				}
-				.nav.responsive a {
+				.nav a, .dropdown, .dropbtn  {
 					float:none;
 					display: block;
-					text-align: left;
+					text-align: center;
 				}
+        .responsive {
+          max-width: 100%;
+          height: auto;
+        }
+        .dropdown, .dropdown-content a {
+          width: 100%;
+          display: block;
+          text-align: center;
+        }
 			}
 
 			.container {
@@ -107,11 +116,7 @@ header {
       }
 
 
-			@media screen and (max-width: 500px) {
-				.container {
-					width: 90%;
-				}
-			}
+
 
 	/*footer with social media share buttons*/
 			.footer {
@@ -173,7 +178,7 @@ header {
         display: inline-block;
       }
 
-      .nav a:hover, .dropdown:hover .dropbtn {
+      .nav a:hover, .dropdown:hover .dropbtn a:hover {
         background: #66B3EA;
         -webkit-transition: 1s;
 				-moz-transition: 1s;
@@ -293,7 +298,7 @@ header {
 
       input[type=submit], input[type=reset] {
         background-color: #66B3EA;
-        margin: 5px;
+        margin: 10px;
         color: #FFFFFF;
         padding: 12px 20px;
         box-shadow: 1px 1px 0px 0px rgba(0,0,0,0.5);
@@ -403,4 +408,10 @@ header {
   background: #6699ff;
   border: none;
   transition: .3s ease-in-out;
+}
+
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56%;
 }
